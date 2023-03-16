@@ -1,16 +1,16 @@
 # Blind Image Super-Resolution via Deep Learning
-----
+
 In this repository, there are all relevant information and files created for a controlled experiment designed and carried out for blind image super-resolution (SR) via deep learning (DL) and deep neural networks (DNNs).
 
 This research was developed within the project *Classificação de imagens via redes neurais profundas e grandes bases de dados para aplicações aeroespaciais* (Image classification via Deep neural networks and large databases for aeroSpace applications - [**IDeepS**](https://github.com/vsantjr/IDeepS)) which is supported by the Laboratório Nacional de Computação Científica (LNCC/MCTI, Brazil) via resources of the [SDumont](http://sdumont.lncc.br) supercomputer.
 
 
 ## Datasets
-----
+
 Altogether, 14 small low-resolution (LR) image datasets were created from five different broader domains. They are available as a [Kaggle dataset](https://www.kaggle.com/datasets/valdivinosantiago/dl-blindsr-datasets). The high-resolution (HR) images created by five deep DL techniques (see Section *DL Techniques and DNN-based Metric* below) considering all 14 LR datasets can also be accessed in this very same location. 
 
 ## DL Techniques and DNN-based Metric
-----
+
 The selected DL techniques to make part of this evaluation are (click in the links below to go to the respository of the DL techniques):
 
 - Adaptive Pseudo Augmentation ([APA](https://github.com/EndlessSora/DeceiveD));
@@ -22,7 +22,7 @@ The selected DL techniques to make part of this evaluation are (click in the lin
 In addition, a DNN-based no-reference image quality assessment (NR-IQA) metric was used in the experiment: Multi-dimension attention network for no-reference image quality assessment ([MANIQA](https://github.com/IIGROUP/MANIQA)) score.
 
 ## Supporting Code
-----
+
 All the supporting code developed is explained below (instructions to run each code is given in the file):
 
 - ```calculate_NIQE.py```: This code allows the calculation of the NR-IQA metric NIQE. It was adapted based on the NIQE's implementation of [Praful Gupta](https://github.com/guptapraful/niqe);
